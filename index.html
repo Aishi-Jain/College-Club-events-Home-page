@@ -21,68 +21,119 @@
         <header>
           <h3 class="logo">UniLink</h3>
           <nav>
-            <a href="/">Home</a><a href="/about-us">About Us</a
-            ><a href="/events">Events</a>
+            <a href="/">Home</a>
+            <a href="/about-us">About Us</a>
+            <a href="/events">Events</a>
+            <a href="/login">Login</a>
           </nav>
         </header>
         <div>
           <main>
-            <img src="images/Aahvan.webp" alt="Aahvan" />
             <div class="info">
-              <h3>Now Playing</h3>
-              <h1>Aahvan</h1>
-              <a href="/events/Aahvan"><button>Get Information</button></a
-              ><button>Buy Tickets Now</button>
+              <img src="images/Aahvan.webp" alt="Aahvan" />
+              <div class="overlay-main">
+                <h3>Now Playing</h3>
+                <h1>Aahvan</h1>
+                <div class="buttons">
+                  <a href="/events/Aahvan">
+                    <button class="main">Get Information</button>
+                  </a>
+                  <button class="main">Buy Tickets Now</button>
+                </div>
+              </div>
             </div>
           </main>
-          <section>
-            <div>
-              <h1>Shows</h1>
-              <h4>LEARN MORE</h4>
+          <div class="container">
+            <div class="card">
+                <img src="images/shows.jpg" alt="Shows">
+                <div class="overlay-card">
+                    <h2>Shows</h2>
+                    <a href="#">Learn More</a>
+                </div>
             </div>
-            <div>
-              <h1>Tickets</h1>
-              <h4>LEARN MORE</h4>
+            <div class="card">
+                <img src="images/tickets.jpg" alt="Tickets">
+                <div class="overlay-card">
+                    <h2>Tickets</h2>
+                    <a href="#">Learn More</a>
+                </div>
             </div>
-            <div>
-              <h1>Calender</h1>
-              <h4>LEARN MORE</h4>
+            <div class="card">
+                <img src="images/calendar.jpg" alt="Calendar">
+                <div class="overlay-card">
+                    <h2>Calendar</h2>
+                    <a href="#">Learn More</a>
+                </div>
             </div>
-            <div>
-              <h1>About</h1>
-              <h4>LEARN MORE</h4>
+            <div class="card">
+                <img src="images/about.jpg" alt="About">
+                <div class="overlay-card">
+                    <h2>About</h2>
+                    <a href="#">Learn More</a>
+                </div>
             </div>
-          </section>
-          <section>
+        </div>
+          <section class="deets">
             <img src="images/Hackathon.jpg" alt="Hackathon" />
-            <div>
-              <h3>DD MM YYYY</h3>
-              <h1>Hackathon</h1>
-            </div>
-            <div>
-              <h1>Hackathon</h1>
-              <p>Information....</p>
-              <button>Buy Tickets Now</button
-              ><a href="/events/Hackathon"><button>Get Information</button></a>
+            <div class="overlay-deets">
+              <div class="show-name">
+                <h3>DD MM YYYY</h3>
+                <h1>Hackathon</h1>
+              </div>
+              <div class="show-info">
+                <h1>Hackathon</h1>
+                <p>Location:
+                  <br>
+                   Malla Reddy College of Engineering</p>
+                <div class="timings">
+                  <div class="start">
+                    <h1>9:30 AM</h1>
+                    <h3>START TIME</h3>
+                  </div>
+                  <div class="end">
+                    <h1>4:00 PM</h1>
+                    <h3>END TIME</h3>
+                  </div>
+                </div>
+                <a href="#">
+                  <button>Buy Tickets Now</button>
+                </a>
+                <a href="/events/Hackathon">
+                  <button>Get Information</button>
+                </a>
+              </div>
             </div>
           </section>
-          <section class="eventsList">
-            <h2>Upcomming Events</h2>
-            <div class="event">
-              <a href="/events/Aahvan"
-                ><img src="images/Aahvan.webp" alt="Aahvan" /><button>
-                  Aahvan
-                </button></a
-              >
+          <div class="eventList">
+            <div class="text-section">
+                <h1>Upcoming Events</h1>
+                <p>some details...</p>
             </div>
-            <div class="event">
-              <a href="/events/Hackathon"
-                ><img src="images/Hackathon.jpg" alt="Hackathon" /><button>
-                  Hackathon
-                </button></a
-              >
+            <div class="events-section">
+                <div class="events">
+                    <img src="images/Aahvan.webp" alt="Event Image">
+                    <div class="details">
+                        <p>DD MM YYYY</p>
+                        <p class="event-name">Aahvaan</p>
+                        <a href="#" class="buy-button">BUY TICKETS NOW</a>
+                    </div>
+                </div>
+                <div class="events">
+                    <img src="images/Hackathon.jpg" alt="Event Image">
+                    <div class="details">
+                        <p>DD MM YYYY</p>
+                        <p class="event-name">Hackathon</p>
+                    </div>
+                </div>
+                <div class="events">
+                    <img src="images/shows.jpg" alt="Event Image">
+                    <div class="details">
+                        <p>DD MM YYYY</p>
+                        <p class="event-name">Event Name</p>
+                    </div>
+                </div>
             </div>
-          </section>
+        </div>
         </div>
         <footer>
           <h3 class="logo">UniLink</h3>
@@ -253,7 +304,7 @@
               </svg>
             </div>
           </div>
-          <p>© 2024 UniLink</p>
+          <p class="copyright">© 2024 UniLink</p>
           <script src="https://harshrb2424.github.io/svg-logos/svg.js"></script>
         </footer>
       </div>
